@@ -1,0 +1,426 @@
+body { 
+    margin: 0;
+    width: 400px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: burlywood;
+  }
+.login{
+    text-align: center;
+    margin: 0;
+    width: 400px;
+    left:50%;margin-left: -200px;
+    top: 200px;position: absolute;
+    font-family: sans-serif;
+    
+}
+.login button{
+    right: 20px;
+    top:50px;position: absolute;
+    padding: 10px 10px;
+    background-color: #00bcd4;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.login input{
+    width: 220px;
+    height: 26px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+.login .login-username{
+    font-size: 20px;
+    color: grey;
+}
+
+.login .login-message{
+  font-size: 10px;
+    color: red;
+}
+
+.content .content-logout{
+  right: 40px;
+    top:50px;position: absolute;
+    padding: 10px 10px;
+    background-color: #00bcd4;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.content-welcome{
+  right: 200px;
+  top:25px;
+  position: absolute;
+  font-size: 30px;
+}
+.store{
+  left: 15%;
+  right:20%;
+  top: 10%;
+  size: 0px;
+  position: absolute;
+  font-size: 20px;
+  
+  
+}
+
+.store-title{
+  font-size: 30px;
+  text-align: left;
+  top:10px;
+  position: relative;
+  
+}
+
+.store-control{
+  text-align: center;
+  top: 10px;
+  left: -30%;
+  position: relative;
+    
+}
+.store-search{
+  text-align: left;
+  left: 10%;
+  top: 20px;
+  position: relative;
+  width: 220px;
+  height: 26px;
+}
+.store-searchbox{
+  width: 220px;
+  height: 26px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.store-product{
+  top:10px;
+  left:5%;
+  bottom: 0ch;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 20px;
+  min-height: 30px;
+}
+
+.store-productname:hover,
+.store-productname:focus{
+  background-color: aliceblue;
+  color: black;
+}
+
+
+
+.store-productname{
+  top:10px;
+  position: relative;
+  font-size: 25px ;
+  min-width: 54px;
+  min-height: 30px;
+}
+
+.store-tocart {
+  left:200px;
+  top:-40px;
+  height: 54px;
+  position: relative;
+  padding: 5px 30px;
+  position: relative;
+  
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: green;
+}
+.store-tocart:hover,
+.store-tocart:focus{
+  background-color: aliceblue;
+  color: black;
+}
+
+
+
+.addproduct{
+  left:80%;
+  top:100px;
+  position: absolute;
+  
+  min-width: 160px;
+  min-height: 60px;
+}
+.addproduct-title{
+  left: -20px;
+  position: relative;
+  font-size: 30px;
+  min-width: 70px;
+  min-height: 70px;
+}
+.addproduct-setname{
+  top:10px;
+  position:relative;
+  min-width: 60px;
+  min-height: 60px;
+}
+.addproduct-setname input{
+  width: 220px;
+  height: 26px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+.addproduct-setprice{
+  top:10px;
+  position:relative;
+  min-width: 60px;
+  min-height: 60px;
+}
+.addproduct-setprice input{
+  width: 220px;
+  height: 26px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+.addproduct-setcategory{
+  text-align: left;
+  left: -15px;
+  top:15px;
+  position:relative;
+  min-width: 60px;
+  min-height: 60px;
+}
+.addproduct-submit{
+  left: -20px;
+  right: -20px;
+  
+  position:relative;
+  text-align: center;
+  background-color: red;
+}
+.addproduct-submit button{
+  text-align: left;
+  position: relative;
+  padding: 10px 120px;
+  background-color: #00bcd4;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.addproduct-submit button:hover,
+.addproduct-submit button:focus{
+  background-color: aliceblue;
+  color: black;
+}
+
+
+.addproduct-error{
+  top:20px;
+  left: -20px;
+  position: relative;
+  color: red;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.change-product{
+  
+  top:15px;
+  left: 10px;
+  bottom: 15px;
+  position: relative;
+  font-size: 15px;
+}
+
+.change-name input{
+  width: 220px;
+  height: 26px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+.change-price input{
+  width: 220px;
+  height: 26px;
+  border-radius: 3px;
+  border: 1px solid gsray;
+}
+.change-control button{
+
+  padding: 5px 30px;
+  position: relative;
+  
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.change-changeBtn{
+  
+  position: relative;
+  background-color:green;
+}
+.change-changeBtn:hover,
+.change-changeBtn:focus{
+  background-color: aliceblue;
+  color: black;
+}
+
+.change-deleteBtn{
+  left: 5px;
+  position: relative;
+  background-color: red;
+}
+.change-deleteBtn:hover,
+.change-deleteBtn:focus{
+  background-color: aliceblue;
+  color: black;
+}
+
+.store-productprice{
+  top: 10px;
+  position: relative;
+  
+}
+
+.cart{
+  
+  top:150px;
+  position:absolute;
+  right: 10%;
+  width: 400px;
+  min-height: 200px;
+
+  border-radius: 5px;
+  font-size: 20px;
+  
+}
+.cart-product{
+  position: relative;
+  min-width: 150px;
+  min-height: 40px;
+  
+}
+.cart-product:hover,
+.cart-product:focus{
+  background-color: #363;
+  color: white;
+}
+.cart-name{
+  top: 0px;
+  
+  font-size: 20px;
+  position:absolute;
+}
+.cart-price{
+  position: absolute;
+  left: 150px;
+
+  top: 0px;
+  
+  font-size: 20px;
+  
+}
+.cart-control{
+  position: absolute;
+  left: 180px;
+}
+.cart-control button{
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+}
+.cart-control label{
+  top: -5px;
+  position: relative;
+  font-size: 20px;
+}
+.cart-delete{
+  position: absolute;
+  right: 5px;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+}
+.cart-checkout{
+  left:5px;
+  bottom: 10px;
+  height: 30px;
+  
+  padding: 3px 30px;
+  position: relative;
+  
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: green;
+}
+.cart-checkout:hover,
+.cart-checkout:focus{
+  background-color: aliceblue;
+  color: black;
+}
+
+.cart-clean{
+  left:10px;
+  bottom: 10px;
+  height: 30px;
+  
+  padding: 3px 30px;
+  position: relative;
+  
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: red;
+}
+.cart-clean:hover,
+.cart-clean:focus{
+  background-color: aliceblue;
+  color: black;
+}
+
+
+.orders{
+  top:150px;
+  position:absolute;
+  left: 3%;
+  min-width: 100px;
+  min-height: 150px;
+
+  border-radius: 5px;
+  font-size: 20px;
+}
+.orders p{
+  left: -30px;
+  position: relative;
+  font-size: 20px;
+  
+}
+.order-item{
+  position: relative;
+  min-width: 80px;
+  min-height: 30px;
+ 
+}
+.order-item:hover,
+.order-item:focus{
+  background-color: aliceblue;
+  color: black;
+}
+.change-error{
+  
+  color: red;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cart-error{
+ 
+  bottom: 1px;
+  height: 10px;
+  
+  padding: 3px 30px;
+  position: relative;
+  color: red;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+

@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App-Header{
+  font-size: 40px;
+  height: 20vmin;
+  font:bolder;
+}
+
+.App-Result-Warning{
+  color: red;
+}
+
+.App-Guessing{
+  /* height: 70px; */
+  color:blue;
+  font-size: 10px;
+}
+
+.App-Guessing-Hint {
+  color: red;
+}

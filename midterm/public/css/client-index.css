@@ -1,0 +1,43 @@
+.top{
+    padding: 2%;
+}
+
+.top form{
+    width: auto;
+    display: inline-block;
+}
+
+.top span{
+    float: right;
+}
+
+button,input[type=submit]{
+    padding: 5px 10px;
+    background-color: #00bcd4;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+.words p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.guess{
+    text-align: center;
+}
+
+button:disabled, input:disabled{
+    background-color: #849395;
+}
+
+.i-message{
+    color: red;
+}

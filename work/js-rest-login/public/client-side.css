@@ -1,0 +1,52 @@
+/* * { 
+  box-sizing: border-box;
+} */
+
+body { 
+  margin: 0;
+  width: 400px;
+  left: 50%;margin-left: -200px;
+  top: 200px;position: absolute;
+  font-family: sans-serif;
+}
+.login p{
+  font-size: 20px;
+  color: grey;
+}
+.login button{
+  padding: 5px 10px;
+  background-color: #00bcd4;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.login input{
+  width: 220px;
+  height: 26px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+.logout button{
+  padding: 5px 10px;
+  background-color: #00bcd4;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.logout { 
+  display: none;
+}
+
+.login { 
+  display: none;
+}
+
+.logged-in .logout { 
+  display: block;
+}
+
+.not-logged-in .login {
+  display: block;
+}
+
